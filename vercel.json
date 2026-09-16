@@ -1,10 +1,5 @@
 {
-  "name": "maxis-services",
-  "version": 2,
-  "public": true,
   "buildCommand": "echo 'No build required'",
-  "env": {},
-  "regions": ["iad1"],
   "headers": [
     {
       "source": "/(.*)",
@@ -22,12 +17,6 @@
           "value": "SAMEORIGIN"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/$1"
     }
   ]
 }
